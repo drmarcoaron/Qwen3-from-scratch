@@ -61,6 +61,39 @@ Qwen 3 sets new benchmarks in reasoning, multilingual ability, and efficient sca
 
 ---
 
+## Citations & References
+
+This project is deeply inspired by and builds upon the following foundational works and resources:
+
+- **Qwen 3 Technical Report:**  
+  [Qwen Technical Report (Alibaba Cloud)](https://arxiv.org/abs/2403.08596)  
+- **Transformers:**  
+  Vaswani et al., ["Attention Is All You Need"](https://arxiv.org/abs/1706.03762), NeurIPS 2017  
+- **Grouped Query Attention:**  
+  [Shazeer, N. "Fast Transformer Decoding: One Write-Head is All You Need"](https://arxiv.org/abs/1911.02150)  
+  [Llama & Llama 2 Technical Reports](https://arxiv.org/abs/2307.09288)  
+- **SwiGLU Activation:**  
+  Shazeer, N. ["GLU Variants Improve Transformer"](https://arxiv.org/abs/2002.05202)  
+- **Rotary Positional Embeddings (RoPE):**  
+  Su, J. et al., ["RoFormer: Enhanced Transformer with Rotary Position Embedding"](https://arxiv.org/abs/2104.09864)  
+- **Sliding Window Attention:**  
+  Beltagy et al., ["Longformer: The Long-Document Transformer"](https://arxiv.org/abs/2004.05150)  
+- **Muon Optimizer:**  
+  [GitHub: Muon Optimizer (by Boris Dayma)](https://github.com/borisdayma/muon)  
+  [Newton-Schulz Method](https://en.wikipedia.org/wiki/Matrix_square_root#Newton's_method)  
+- **AdamW Optimizer:**  
+  Loshchilov & Hutter, ["Decoupled Weight Decay Regularization"](https://arxiv.org/abs/1711.05101)  
+- **HuggingFace Datasets and Tokenizers:**  
+  [HuggingFace Datasets Documentation](https://huggingface.co/docs/datasets)  
+  [HuggingFace Tokenizers Documentation](https://huggingface.co/docs/tokenizers)
+
+**For further learning & code inspiration:**
+- [Andrej Karpathy’s nanoGPT](https://github.com/karpathy/nanoGPT)
+- [Llama.cpp (Efficient LLMs)](https://github.com/ggerganov/llama.cpp)
+- [OpenAI GPT-2](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
+
+---
+
 ## A Note on Philosophy
 
 This project is for those who want to **see under the hood**—to break, fix, and extend the engine of LLMs. No proprietary glue, no unexplained “magic numbers.” If you want to push boundaries, experiment with optimizers, change attention mechanisms, or just understand what makes modern LLMs tick, you’re in the right place.
@@ -69,4 +102,4 @@ If you’re familiar with Andrej Karpathy’s style: clear code, careful structu
 
 ---
 
-*Made by [drmarcoaron](https://github.com/drmarcoaron). For research, for learning, for fun. Enjoy!*
+*Made by [marcoharuni](https://github.com/marcoharuni). For research, for learning, for fun. Enjoy!*
